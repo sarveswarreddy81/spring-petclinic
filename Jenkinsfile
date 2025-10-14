@@ -1,6 +1,7 @@
+
 pipeline {
     agent {
-        label 'JAVA'
+        label 'JDKJAVASPC'
     }
 
     stages {
@@ -35,7 +36,7 @@ pipeline {
                       "files": [
                         {
                           "pattern": "target/*.jar",
-                          "target": "mavenrepo-libs-release/"
+                          "target": "jfragjavaspc-libs-release/"
                         }
                       ]
                     }'''
@@ -47,4 +48,3 @@ pipeline {
         }
     }
 }
-
