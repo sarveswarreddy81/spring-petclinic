@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'JDKJAVASPC'
+        label 'JAVA'
     }
 
     stages {
