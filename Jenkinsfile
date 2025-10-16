@@ -42,7 +42,7 @@ pipeline {
                     }'''
                 )
                 rtPublishBuildInfo (
-                    serverId: 'JFROG_JAVA'
+                    serverId: 'JFROG_MAIN'
                 )
             }
         }
