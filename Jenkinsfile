@@ -31,7 +31,7 @@ pipeline {
         stage('Upload to JFrog') {
             steps {
                 rtUpload (
-                    serverId: 'JFROG_JAVA',
+                    serverId: 'JFROG_MAIN',
                     spec: '''{
                       "files": [
                         {
