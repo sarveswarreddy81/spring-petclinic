@@ -36,7 +36,7 @@ pipeline {
                       "files": [
                         {
                           "pattern": "target/*.jar",
-                          "target": "jfragjavaspc-libs-release/"
+                          "target": "mavenrepo-libs-release/"
                         }
                       ]
                     }'''
